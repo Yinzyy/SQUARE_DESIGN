@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+* {
+    padding: 0;
+    
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+div {
+    height: 450px;
+    width: 220px;
+    font-family: Lexend Deca;
+    padding: 50px;
+    text-decoration-style: solid;
+    line-height: 25px;
+ }
+
+div button{
+    text-align: center;
+
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-size: 5vh;
+    font-family: Big Shoulders Display;
+}
+
+button{
+    width: 150px;
+    height:50px;
+    border-radius: 22px;
+    border:1px solid white;
+    color:hsl(31, 77%, 52%);
+    font-size:90%;
+    background-color: hsl(0, 0%, 95%);
+    font-family: Lexend Deca;
+}
+
+.btn_2{ 
+    color: hsl(184, 100%, 22%);
+
+}
+
+.btn_1{ 
+     color: hsl(179, 100%, 13%);
+    }
+
+
+p{
+   padding: 50px 0px 100px 0px; 
+   color:hsla(0, 0%, 100%, 0.75);
+   font-size: 16px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-top-right-radius: 10px;
+    margin-top: 120px;
+}
+div button:hover{
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+
+}
+div:first-child{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;    
+}
+
+div:nth-child(2){
+    background-color:hsl(184, 100%, 22%);
+}
+div:last-child{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
